@@ -102,6 +102,93 @@ const questionSets: Question[][] = [
         { text: "PHP", correct: false }
       ]
     }
+  ],
+  [
+    {
+      question: "What is the speed of light?",
+      answers: [
+        { text: "299,792,458 m/s", correct: true },
+        { text: "300,000,000 m/s", correct: false },
+        { text: "186,000 miles/s", correct: false },
+        { text: "150,000,000 m/s", correct: false }
+      ]
+    },
+    {
+      question: "Which country invented pizza?",
+      answers: [
+        { text: "Greece", correct: false },
+        { text: "Italy", correct: true },
+        { text: "France", correct: false },
+        { text: "Spain", correct: false }
+      ]
+    },
+    {
+      question: "What is the smallest country in the world?",
+      answers: [
+        { text: "Monaco", correct: false },
+        { text: "San Marino", correct: false },
+        { text: "Vatican City", correct: true },
+        { text: "Liechtenstein", correct: false }
+      ]
+    }
+  ],
+  [
+    {
+      question: "What does HTML stand for?",
+      answers: [
+        { text: "HyperText Markup Language", correct: true },
+        { text: "High Tech Modern Language", correct: false },
+        { text: "Home Tool Markup Language", correct: false },
+        { text: "HyperText Making Language", correct: false }
+      ]
+    },
+    {
+      question: "Which planet is closest to the Sun?",
+      answers: [
+        { text: "Venus", correct: false },
+        { text: "Mars", correct: false },
+        { text: "Mercury", correct: true },
+        { text: "Earth", correct: false }
+      ]
+    },
+    {
+      question: "What is the capital of Australia?",
+      answers: [
+        { text: "Sydney", correct: false },
+        { text: "Melbourne", correct: false },
+        { text: "Canberra", correct: true },
+        { text: "Perth", correct: false }
+      ]
+    }
+  ],
+  [
+    {
+      question: "Who wrote 'Romeo and Juliet'?",
+      answers: [
+        { text: "Charles Dickens", correct: false },
+        { text: "William Shakespeare", correct: true },
+        { text: "Jane Austen", correct: false },
+        { text: "Mark Twain", correct: false }
+      ]
+    },
+    {
+      question: "What is the largest mammal?",
+      answers: [
+        { text: "Elephant", correct: false },
+        { text: "Blue Whale", correct: true },
+        { text: "Giraffe", correct: false },
+        { text: "Hippopotamus", correct: false }
+      ]
+    },
+    {
+      question: "In which year did the Titanic sink?",
+      answers: [
+        { text: "1910", correct: false },
+        { text: "1912", correct: true },
+        { text: "1914", correct: false },
+        { text: "1916", correct: false }
+      ]
+    }
   ]
 ];
 
