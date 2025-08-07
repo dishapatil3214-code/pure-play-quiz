@@ -164,7 +164,7 @@ const Index = () => {
   const progress = ((currentQuestionIndex + 1) / questions.length) * 100;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-primary/5 via-background to-secondary/5 flex items-center justify-center p-4">
+    <div className="min-h-screen gradient-bg floating-shapes relative overflow-hidden flex items-center justify-center p-4">
       <Card className="w-full max-w-2xl shadow-2xl border-0 bg-card/80 backdrop-blur-sm">
         {gameState === "start" && (
           <CardContent className="text-center p-12">
